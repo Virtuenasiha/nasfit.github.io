@@ -1,0 +1,63 @@
+h1, h2{
+	color: rgb(128, 128, 128);
+	text-align: center;
+	font-size: 50px;
+}
+img{
+	display: block;
+	height: 285px;
+
+}
+li{
+	font-size: 45px;
+	display: inline-block;
+	text-align: center;
+}
+.webtext{
+	background-image: url(https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-6/12228-Happy_Hour_to_the_Gym_Is_It_Safe_To_Drink_Before_ExercisingHeader.jpg?w=1155&h=1528)
+
+
+}
+h2{
+	color: purple;
+}
+.overlay{
+	 /*position: absolute;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+    background: rgba(232, 98, 0, 0.5);
+    /*background: rgba(129, 34, 162, 0.3);*/
+    padding: 20px 15px;
+}
+p{
+	text-transform: capitalize;
+	line-height:50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 180%;
+	font-family: Georgia; 
+}
+nav{
+	text-align: center;
+}
+.grid-container{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns:5fr 5fr 5fr 5fr;
+	
+}
+.zone {
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 7px;
+	font-size: 2em;
+	transition: all 1s linear;
+	padding: 15px 15px;
+}
+.zone:hover{
+	color: rgb(0, 0, 0, 0,8);
+}
